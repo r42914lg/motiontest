@@ -8,8 +8,19 @@
     <fragment
         android:id="@+id/FirstFragment"
         android:name="com.r42914lg.motiontest.FirstFragment"
-        android:label="@string/first_fragment_label"
         tools:layout="@layout/fragment_first">
+    </fragment>
+
+    <fragment
+        android:id="@+id/startTransitionFragment"
+        android:name="com.r42914lg.motiontest.StartTransitionFragment"
+        tools:layout="@layout/fragment_start_transition">
+    </fragment>
+
+    <fragment
+        android:id="@+id/detailsFragment"
+        android:name="com.r42914lg.motiontest.DetailsFragment"
+        tools:layout="@layout/fragment_details">
     </fragment>
 
 </navigation>
